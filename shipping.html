@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion Store</title>
+    <link
+      href="https://db.onlinewebfonts.com/c/2f7259ecfaa5e475102e4002d64ce981?family=Beatrice+Deck+Trial+Medium"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/7bc77e0a98b9e9bbd8111c7797f39bf6?family=Beatrice+Deck+Trial+Extrabold"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/2b7f9b31ebefea7623dbb31bf545b7ab?family=Beatrice+Deck+Trial+Thin"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      href="https://db.onlinewebfonts.com/c/1130e1ae4e4a76c7118c0b35c4b9d019?family=Inter"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="checkout-container">
+      <section class="checkout-left">
+        <a href="images.html"
+          ><img src="Images/Vector.png" alt="" class="back-link"
+        /></a>
+        <h2 class="checkout-title">CHECKOUT</h2>
+
+        <div class="checkout-steps">
+          <span class="step active"> INFORMATION </span>
+          <span> SHIPPING </span>
+          <span> PAYMENT </span>
+        </div>
+
+        <div class="form-section">
+          <h4 class="section-title">CONTACT INFO</h4>
+          <div class="input-group">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <input type="tel" placeholder="Phone" />
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h4 class="section-title">SHIPPING ADDRESS</h4>
+          <div class="input-row">
+            <input type="text" placeholder="First Name" />
+            <input type="text" placeholder="Last Name" />
+          </div>
+
+          <div class="input-group">
+            <select>
+              <option value="country">Country</option>
+              <option value="US">United States</option>
+              <option value="NG">Nigeria</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <input type="text" placeholder="State / Region" />
+          </div>
+          <div class="input-group">
+            <input type="text" placeholder="Address" />
+          </div>
+
+          <div class="input-row">
+            <input type="text" placeholder="City" />
+            <input type="text" placeholder="Postal Code" />
+          </div>
+        </div>
+
+        <button class="shipping-btn">
+          <span>Shipping</span>
+          <img src="Images/Vector (1).png" alt="" />
+        </button>
+      </section>
+
+      <aside class="checkout-right">
+        <div class="order-summary-card">
+          <div class="summary-header">
+            <h3>YOUR ORDER</h3>
+            <span class="order-count">(2)</span>
+          </div>
+
+          <!-- Item 1 -->
+          <div class="order-items">
+            <img src="Images/Group 20.png" alt="Basic Heavy T-Shirt" />
+            <div class="item-info">
+              <div class="item-header">
+                <h5>Basic Heavy T-Shirt</h5>
+                <a href="#" class="change-link">Change</a>
+              </div>
+              <p class="item-meta">Black / L</p>
+              <div class="item-footer">
+                <span class="qty">(1)</span>
+                <span class="item-price">$90</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="order-items">
+            <img src="Images/Group 20.png" alt="Basic Heavy T-Shirt" />
+            <div class="item-info">
+              <div class="item-header">
+                <h5>Basic Heavy T-Shirt</h5>
+                <a href="#" class="change-link">Change</a>
+              </div>
+              <p class="item-meta">Black / L</p>
+              <div class="item-footer">
+                <span class="qty">(1)</span>
+                <span class="item-price">$90</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Totals -->
+        <div class="price-calculations">
+          <div class="price-row">
+            <span>Subtotal</span>
+            <span class="amount">$180.00</span>
+          </div>
+          <div class="price-row">
+            <span>Shipping</span>
+            <span class="subtext">Calculated at next step</span>
+          </div>
+          <hr class="divider" />
+          <div class="total">
+            <span>Total</span>
+            <span class="total-amount">$180.00</span>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
